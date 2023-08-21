@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+//import ImportFuncComponent from './Components/ImportFuncComponent';
 import './App.css';
+//import LifecylceEx from './R004_LifecycleEx';
+//import ImportComponent from './R003_ImportComponent'
+import LifecylceEx from "./Components/LifecycleExFunc";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+  return(
+    <div>
+      <h1>Start React200!</h1>
+      <p>CSS 적용하기</p>
+      <LifecylceEx />
     </div>
   );
-}
+};
 
 export default App;
